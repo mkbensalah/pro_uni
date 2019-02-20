@@ -179,6 +179,7 @@ svg:not(:root) {
     color: #11100e;
     font-weight: bold;
 }
+.content {}
 .main_menu_list li a
 {
     display: block;

@@ -1,18 +1,37 @@
 import React, { Component } from 'react';
 
-import TopBar from '../../components/Navigation/TopBar/TopBar';
+import Aux from '../Auxliary';
 import classes from './Layout.css';
 import Menu from '../../components/Navigation/Menu/Menu'
+import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
 class Layout extends Component {
+    state = {
+        showSideDrawer: false
+    }
+
+    sideDrawerClosedHandler = () => {
+        this.setState( { showSideDrawer: false } );
+    }
+
+    sideDrawerToggleHandler = () => {
+        this.setState( ( prevState ) => {
+            return { showSideDrawer: !prevState.showSideDrawer };
+        } );
+    }
+
+
     render () {
         return (
-            <div className={classes.home}>
-                <header className={classes.header}>
-                <TopBar/>
-                <Menu/>
-                </header>
-            </div>
+            <Aux>
+                <Menu drawerToggleClicked={this.sideDrawerToggleHandler}/>
+                <SideDrawer
+                    open={this.state.showSideDrawer}
+                    closed={this.sideDrawerClosedHandler} />
+                <main className={classes.Content}>
+                    {this.props.children}
+                </main>
+            </Aux>
         )
     }
 }

@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 
 
 import Aux from '../../hoc/Auxliary';
+import RequiredBuilding from '../../components/RequiredBuilding/RequiredBuilding';
 
 
 class Home extends Component {
     render () {
         return (
             <Aux>
-                <h1>dsd</h1>
+                <RequiredBuilding/>
             </Aux>
         );
     }

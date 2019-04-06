@@ -1,0 +1,82 @@
+.FirstPage1 {
+    width: 100%;
+    margin: auto;
+    height: 800px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-image: url(../../asstes/images/hero1.jpg);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+
+
+
+.Open {
+    transform: translateX(-0%);
+}
+
+.da {
+    transition: transform 0.3s ease-out;
+}
+
+.Close {
+    transform: translateX(-100%);
+}
+
+.Open2 {
+    transform: translateY(0);
+}
+
+.Close2 {
+    transform: translateY(-100%);
+}
+
+
+.FirstPage2 {
+    width: 100%;
+    margin: auto;
+    height: 800px; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-image: url(../../asstes/images/hero2.jpg);
+}
+
+.FirstPage3 {
+    width: 100%;
+    margin: auto;
+    height: 800px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-image: url(../../asstes/images/hero3.jpg);
+}
+
+.heroslidescontent  {
+    text-align: center; 
+    transition: transform 0.3s ease-out;
+}
+    .heroslidescontent  h2 {
+      color: #ffffff;
+      font-size: 60px;
+      margin-bottom: 0;
+      padding: 10px 15px;
+      text-transform: uppercase;
+      background-color: #000000;
+      line-height: 1;
+      display: inline-block; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .heroslidescontent  h2 {
+          font-size: 40px; } }
+      @media only screen and (max-width: 767px) {
+        .heroslidescontent  h2 {
+          font-size: 16px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .heroslidescontent  h2 {
+          font-size: 24px; } }
+
+          .line{
+            display: inline-block;
+            flex-direction: column;
+          }

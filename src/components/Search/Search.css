@@ -1,0 +1,249 @@
+.Search {
+    width: 100%;
+    box-shadow: 0 2px 1px #ccc;
+    margin: auto;
+    
+}
+
+
+.southsearcharea {
+    
+    z-index: 200;
+    }
+    .southsearcharea .advancedsearchform {
+      
+        z-index: 200;
+      padding: 7px 50px;
+      border: 1px solid #e1dddd;
+      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15); }
+     
+       
+        .southsearcharea .advancedsearchform .sliderrange:first-child {
+          padding-right: 15px; }
+        .southsearcharea .advancedsearchform .sliderrange:last-child {
+          padding-left: 15px; }
+      .southsearcharea .advancedsearchform .uiwidget.uiwidgetcontent {
+        border: none;
+        height: 4px; }
+      .southsearcharea .advancedsearchform .uiwidgetcontent {
+        background: #947054; }
+      .southsearcharea .advancedsearchform .uisliderhorizontal {
+        height: 4px;
+        background: #947054; }
+      .southsearcharea .advancedsearchform .uicornerall,
+      .southsearcharea .advancedsearchform .uicornerbottom,
+      .southsearcharea .advancedsearchform .uicornerright,
+      .southsearcharea .advancedsearchform .uicornerbr {
+        border-bottom-right-radius: 0; }
+      .southsearcharea .advancedsearchform .uicornerall,
+      .southsearcharea .advancedsearchform .uicornerbottom,
+      .southsearcharea .advancedsearchform .uicornerleft,
+      .southsearcharea .advancedsearchform .uicornerbl {
+        border-bottom-left-radius: 0; }
+      .southsearcharea .advancedsearchform .uicornerall,
+      .southsearcharea .advancedsearchform .uicornertop,
+      .southsearcharea .advancedsearchform .uicornerright,
+      .southsearcharea .advancedsearchform .uicornertr {
+        border-top-right-radius: 0; }
+      .southsearcharea .advancedsearchform .uicornerall,
+      .southsearcharea .advancedsearchform .uicornertop,
+      .southsearcharea .advancedsearchform .uicornerleft,
+      .southsearcharea .advancedsearchform .uicornertl {
+        border-top-left-radius: 0; }
+      .southsearcharea .advancedsearchform .uistatedefault,
+      .southsearcharea .advancedsearchform .uiwidgetcontent .uistatedefault,
+      .southsearcharea .advancedsearchform .uiwidget-header .uistatedefault,
+      .southsearcharea .advancedsearchform .uibutton,
+      .southsearcharea .advancedsearchform html .uibutton.uistatedisabled:hover,
+      .southsearcharea .advancedsearchform html .uibutton.uistatedisabled:active {
+        border: none;
+        background: #947054;
+        margin-top: -3px; }
+      .southsearcharea .advancedsearchform .range {
+        font-size: 12px;
+        margin-top: 15px;
+        font-weight: 600; }
+        
+      .southsearcharea .advancedsearchform .morefilter a {
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #323232; }
+        .southsearcharea .advancedsearchform .morefilter a:hover {
+          color: #947054; }
+      .southsearcharea .advancedsearchform .searchformsecondsteps {
+        display: none; }
+
+        .formcontrol {
+            background-color: transparent;
+            width: 100%;
+            height: 38px;
+            border-radius: 0;
+            font-size: 14px;
+            color: #000000;
+            margin-bottom: 30px;
+            font-weight: 500;
+            padding: 0 15px;
+            border: 1px solid #e1dddd; }
+            .formcontrol:hover, .formcontrol:focus {
+              background-color: transparent;
+              box-shadow: none;
+              border: 1px solid #e1dddd; }
+          
+          .niceselect {
+            line-height: 34px; }
+            .niceselect .list {
+              left: 0 !important;
+              right: 0 !important;
+              border-radius: 0; }
+
+              .contactrealtorwrapper .realtorcontactform .formgroup {
+                margin-bottom: 15px; }
+
+                .leave-comment-area .comment-form .formgroup,
+.leave-comment-area .contact-form .formgroup,
+.south-contact-area .comment-form .formgroup,
+.south-contact-area .contact-form .formgroup {
+  margin-bottom: 10px; }
+
+
+  .leave-comment-area .comment-form .formcontrol,
+.leave-comment-area .contact-form .formcontrol,
+.south-contact-area .comment-form .formcontrol,
+.south-contact-area .contact-form .formcontrol {
+  width: 100%;
+  height: 43px;
+  background-color: transparent;
+  padding: 15px;
+  border: 1px solid #e1dddd;
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 0 !important; }
+.leave-comment-area .comment-form textarea.formcontrol,
+.leave-comment-area .contact-form textarea.formcontrol,
+.south-contact-area .comment-form textarea.formcontrol,
+.south-contact-area .contact-form textarea.formcontrol {
+  height: 200px !important; }
+
+  .contact-realtor-wrapper .realtor--contact-form .formgroup {
+    margin-bottom: 15px; }
+
+    .leave-comment-area .comment-form .formgroup,
+.leave-comment-area .contact-form .formgroup,
+.south-contact-area .comment-form .formgroup,
+.south-contact-area .contact-form .formgroup {
+  margin-bottom: 10px; }
+
+  .southsearcharea .advancedsearchform .sliderrange {
+    flex: 0 0 50%;
+    min-width: 50%;
+    margin-bottom: 30px; }
+  
+
+      .southsearcharea .advancedsearchform .uistatedefault,
+    .southsearcharea .advancedsearchform .uiwidgetcontent .uistatedefault,
+    .southsearcharea .advancedsearchform .uiwidgetheader .uistatedefault,
+    .southsearcharea .advancedsearchform .ui-button,
+    .southsearcharea .advancedsearchform html .ui-button.ui-state-disabled:hover,
+    .southsearcharea .advancedsearchform html .ui-button.ui-state-disabled:active {
+      border: none;
+      background: #947054;
+      margin-top: -3px; }
+
+      .southsearcharea .advancedsearchform .uicornerall,
+    .southsearcharea .advancedsearchform .ui-corner-bottom,
+    .southsearcharea .advancedsearchform .ui-corner-right,
+    .southsearcharea .advancedsearchform .ui-corner-br {
+      border-bottom-right-radius: 0; }
+    .southsearcharea .advancedsearchform .uicornerall,
+    .southsearcharea .advancedsearchform .ui-corner-bottom,
+    .southsearcharea .advancedsearchform .ui-corner-left,
+    .southsearcharea .advancedsearchform .ui-corner-bl {
+      border-bottom-left-radius: 0; }
+    .southsearcharea .advancedsearchform .uicornerall,
+    .southsearcharea .advancedsearchform .ui-corner-top,
+    .southsearcharea .advancedsearchform .ui-corner-right,
+    .southsearcharea .advancedsearchform .ui-corner-tr {
+      border-top-right-radius: 0; }
+    .southsearcharea .advancedsearchform .uicornerall,
+    .southsearcharea .advancedsearchform .ui-corner-top,
+    .southsearcharea .advancedsearchform .ui-corner-left,
+    .southsearcharea .advancedsearchform .ui-corner-tl {
+      border-top-left-radius: 0; }
+
+
+      .southsearcharea .advancedsearchform .uistatedefault,
+    .southsearcharea .advancedsearchform .ui-widget-content .uistatedefault,
+    .southsearcharea .advancedsearchform .ui-widget-header .uistatedefault,
+    .southsearcharea .advancedsearchform .ui-button,
+    .southsearcharea .advancedsearchform html .ui-button.ui-state-disabled:hover,
+    .southsearcharea .advancedsearchform html .ui-button.ui-state-disabled:active {
+      border: none;
+      background: #947054;
+      margin-top: -3px; }
+
+      .justifycontentbetween {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .southsearcharea .advancedsearchform .searchtitle {
+      position: absolute;
+      width: 260px;
+      height: 45px;
+      background-color: #947054;
+      top: -46px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      padding: 0 40px;
+      text-align: center; }
+      @media only screen and (max-width: 767px) {
+        .southsearcharea .advancedsearchform .searchtitle {
+          width: 210px;
+          padding: 0 15px; } }
+      .southsearcharea .advancedsearchform .searchtitle p {
+        margin-bottom: 0;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 45px;
+        font-weight: 600; }
+    .southsearcharea .advancedsearchform .slider-range {
+      flex: 0 0 50%;
+      min-width: 50%;
+      margin-bottom: 30px; }
+
+
+      .southbtn {
+        position: relative;
+        z-index: 1;
+        min-width: 170px;
+        height: 50px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #947054;
+        border-radius: 0;
+        line-height: 50px;
+        padding: 0 30px;
+        text-transform: uppercase; }
+        .southbtn.active, .southbtn:hover, .southbtn:focus {
+          color: #ffffff;
+          background-color: #000000; }
+        .southbtn.btn-2 {
+          border: 2px solid #947054;
+          background-color: transparent;
+          color: #947054;
+          line-height: 46px; }
+          .southbtn.btn-2:hover, .southbtn.btn-2:focus {
+            color: #ffffff;
+            background-color: #947054; }
+        .southbtn.btn-3 {
+          border: 2px solid #000000;
+          background-color: transparent;
+          color: #000000;
+          line-height: 46px; }
+          .southbtn.btn-3:hover, .southbtn.btn-3:focus {
+            color: #ffffff;
+            background-color: #000000; }
+      

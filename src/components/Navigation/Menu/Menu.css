@@ -112,8 +112,10 @@
 .mainheaderarea {
     width: 100%;
     height: 90px;
-    position: relative;
-    z-index: 1;
+		position: fixed;
+		padding: 0 20px;
+		box-sizing: border-box;
+    z-index: 90;
     background-color: rgba(0, 0, 0, 0.4);
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms; }

@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Aux from '../../hoc/Auxliary';
 import classes from './FirstPage.css'
 
+
 const FirstPag = [classes.FirstPage1, classes.FirstPage2, classes.FirstPage3];
 let cpte = 0;
 class FirstPage extends Component {
@@ -96,7 +97,8 @@ class FirstPage extends Component {
    
         return (
             <Aux>
-               
+              
+                   
 
                     <div className={this.state.classCh1[0][0].join(' ')}>
                         <div className="container h-100">
@@ -134,7 +136,9 @@ class FirstPage extends Component {
                         </div>
                     </div>
 
-               
+                   
+
+                   
               
             </Aux>
         );

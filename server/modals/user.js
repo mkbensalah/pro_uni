@@ -1,4 +1,4 @@
-var db = require("../helpers/db-setup");
+ var db = require("../helpers/db-setup");
 
 // add user to db
 exports.create = function(username, email, done) {

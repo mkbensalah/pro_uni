@@ -38,7 +38,7 @@ const menu = (props) => (
                             <div className={classes.classynav}>
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="#">Pages</a></li>
+                                    <li><a href="index.html">Pages</a></li>
                                     <li><a href="about-us.html">About Us</a></li>
                                     <li><a href="listings.html">Properties</a></li>
                                     <li><a href="blog.html">Blog</a></li>

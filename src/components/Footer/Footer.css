@@ -1,0 +1,141 @@
+@import url(../css/bootstrap.min.css);
+@import url(../css/animate.css);  
+
+.footerarea {
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    background-image: url(../../asstes/images/cta.jpg) }
+    .footerarea .copywritetext {
+      width: 100%;
+      height: 60px;
+      background-color: #111113;
+      padding: 0 15px; }
+      .footerarea .copywritetext p {
+        margin-bottom: 0;
+        font-size: 12px;
+        color: #7d7d7d; }
+        .footerarea .copywritetext p a {
+          font-size: 12px;
+          color: #7d7d7d; }
+  
+  .footerwidgetarea .widgettitle {
+    margin-bottom: 90px; }
+    .footerwidgetarea .widgettitle h6 {
+      font-size: 16px;
+      color: #ffffff;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      border-bottom: 2px solid;
+      border-color: #947054;
+      line-height: 1.8;
+      display: inline-block; }
+  .footerwidgetarea p {
+    color: #7d7d7d;
+    margin-bottom: 0;
+    font-weight: 400; }
+  .footerwidgetarea .weeklyofficehours ul li {
+    padding: 15px 0;
+    display: block;
+    border-bottom: 1px solid #7d7d7d; }
+    .footerwidgetarea .weeklyofficehours ul li span {
+      color: #7d7d7d;
+      font-size: 14px;
+      font-weight: 400; }
+    .footerwidgetarea .weeklyofficehours ul li:first-of-type {
+      padding-top: 0; }
+  .footerwidgetarea .address {
+    margin-top: 40px; }
+    .footerwidgetarea .address h6 {
+      position: relative;
+      z-index: 1;
+      color: #7d7d7d;
+      margin-bottom: 20px;
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+      padding-left: 40px;
+      line-height: 1.8; }
+      .footerwidgetarea .address h6 img {
+        position: absolute;
+        top: 4px;
+        z-index: 10;
+        left: 0; }
+  .footerwidgetarea .usefullinksnav {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .footerwidgetarea .usefullinksnav li {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      min-width: 50%; }
+      .footerwidgetarea .usefullinksnav li a {
+        padding: 15px 0;
+        display: block;
+        color: #7d7d7d;
+        font-weight: 400; }
+        .footerwidgetarea .usefullinksnav li a:first-child, .footerwidgetarea .usefullinksnav li a:nth-child(2) {
+          padding-top: 0; }
+        .footerwidgetarea .usefullinksnav li a:hover, .footerwidgetarea .usefullinksnav li a:focus {
+          color: #947054; }
+  .footerwidgetarea .featuredpropertiesslides {
+    position: relative;
+    z-index: 1; }
+    .footerwidgetarea .featuredpropertiesslides .owlprev,
+    .footerwidgetarea .featuredpropertiesslides .owlnext {
+      width: 38px;
+      height: 38px;
+      position: absolute;
+      top: 50%;
+      line-height: 40px;
+      text-align: center;
+      color: #ffffff;
+      left: -19px;
+      opacity: 0;
+      visibility: hidden;
+      margin-top: -19px;
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms;
+      background-color: #947054;
+      font-size: 13px;
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.15); }
+      .footerwidgetarea .featuredpropertiesslides .owlprev:hover,
+      .footerwidgetarea .featuredpropertiesslides .owlnext:hover {
+        background-color: #000000; }
+    .footerwidgetarea .featuredpropertiesslides .owlnext {
+      left: auto;
+      right: -19px; }
+    .footerwidgetarea .featuredpropertiesslides:hover .owlprev, .footerwidgetarea .featuredpropertiesslides:hover .owlnext {
+      opacity: 1;
+      visibility: visible; }
+      .sectionpadding100 {
+        padding: 100px 0 0; }
+        .bgimg {
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat; }
+
+
+            .gradientbackgroundoverlay {
+                position: relative;
+                z-index: 3; }
+
+                .gradientbackgroundoverlay:before {
+                    content: "";
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    z-index: -1;
+                    top: 0;
+                    left: 0;
+                    background: rgba(0, 0, 0, 0.9);
+                    background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.9) 90%, rgba(0, 0, 0, 0) 100%);
+                    background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.9) 90%, rgba(0, 0, 0, 0) 100%); }
+
+                    .mb100 {
+                        margin-bottom: 100px; }
+                        .justifycontentbetween {
+                            -webkit-box-pack: justify;
+                            -ms-flex-pack: justify;
+                            justify-content: space-between
+                        }

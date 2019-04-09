@@ -1,0 +1,50 @@
+.southeditorarea {
+    background-color: #f1f6f8;
+    position: relative;
+    z-index: 1; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .southeditorarea {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+    @media only screen and (max-width: 767px) {
+      .southeditorarea {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+    .southeditorarea .editorcontentarea,
+    .southeditorarea .editorthumbnail {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      min-width: 50%; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .southeditorarea .editorcontentarea,
+        .southeditorarea .editorthumbnail {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+          min-width: 100%; } }
+      @media only screen and (max-width: 767px) {
+        .southeditorarea .editorcontentarea,
+        .southeditorarea .editorthumbnail {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+          min-width: 100%; } }
+    .southeditorarea .editorcontentarea {
+      position: relative;
+      z-index: 1;
+      padding: 100px 5%; }
+      .southeditorarea .editorcontentarea .sectionheading {
+        text-align: left;
+        margin-bottom: 50px; }
+      .southeditorarea .editorcontentarea .address {
+        margin-top: 30px; }
+        .southeditorarea .editorcontentarea .address h6 {
+          margin-bottom: 15px;
+          font-size: 14px; }
+          .southeditorarea .editorcontentarea .address h6:last-of-type {
+            margin-bottom: 0; }
+          .southeditorarea .editorcontentarea .address h6 img {
+            margin-right: 10px; }
+            .mt50 {
+                margin-top: 50px; }

@@ -1,42 +1,22 @@
 .FirstPage1 {
-    position: absolute;
     width: 100%;
     margin: auto;
     height: 800px;
     text-align: center;
     font-weight: bold;
-  
     font-size: 1.2rem;
     background-image: url(../../asstes/images/hero1.jpg);
     box-sizing: border-box;
-    transition: transform 1s ease-out;
+    transition: transform 0.3s ease-out;
 }
 
 
 
-.Open {
-    transform: translateX(-0%);
-}
 
-.da {
-    transition: transform 3s ease-out;
-}
-
-.Close {
-    transform: translateX(-100%);
-}
-
-.Open2 {
-    transform: translateX(0);
-}
-
-.Close2 {
-    transform: translateX(-100%) ;
-}
 
 
 .FirstPage2 {
-    position: absolute;
+  
     width: 100%;
     margin: auto;
     height: 800px; 
@@ -45,10 +25,12 @@
     font-weight: bold;
     font-size: 1.2rem;
     background-image: url(../../asstes/images/hero2.jpg);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
 }
 
 .FirstPage3 {
-    position: absolute;
+    
     width: 100%;
     margin: auto;
     height: 800px;
@@ -57,11 +39,13 @@
     font-weight: bold;
     font-size: 1.2rem;
     background-image: url(../../asstes/images/hero3.jpg);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
 }
 
 .heroslidescontent  {
     text-align: center; 
-    transition: transform 3s ease-out;
+    transition: transform 1s ease-out;
 }
     .heroslidescontent  h2 {
       color: #ffffff;
@@ -97,5 +81,7 @@
 }
 
 
-
+.tes{
+padding-bottom : 10px;
+}
 

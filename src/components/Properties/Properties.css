@@ -1,0 +1,265 @@
+@import url(../css/bootstrap.min.css);
+@import url(../css/animate.css);  
+.sectionpadding10050 {
+    padding: 100px 0 50px;
+}
+
+.sectionheading {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        margin-bottom: 100px; }
+        .sectionheading img {
+          margin-bottom: 10px; }
+        .sectionheading h2 {
+          font-size: 30px;
+          text-transform: uppercase;
+          margin-bottom: 5px; }
+          @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            .sectionheading h2 {
+              font-size: 24px; } }
+          @media only screen and (max-width: 767px) {
+            .sectionheading h2 {
+              font-size: 24px; } }
+        .sectionheading p {
+          color: #947054;
+          font-size: 14px;
+          margin-bottom: 0;
+          font-style: italic; }
+    
+
+          .singlefeaturedproperty {
+            position: relative;
+            z-index: 1;
+            -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+            overflow: hidden; }
+            .singlefeaturedproperty .propertythumb {
+              position: relative;
+              z-index: 1; }
+              .singlefeaturedproperty .propertythumb .tag span {
+                height: 35px;
+                padding: 0 20px;
+                background-color: #947054;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 600;
+                display: inline-block;
+                line-height: 35px;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                z-index: 10;
+                -webkit-transition-duration: 500ms;
+                transition-duration: 500ms; }
+              .singlefeaturedproperty .propertythumb .listprice p {
+                background-color: #ffffff;
+                padding: 10px 20px;
+                color: #947054;
+                font-size: 24px;
+                font-weight: 600;
+                display: inline-block;
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                z-index: 10;
+                margin-bottom: 0;
+                line-height: 1;
+                -webkit-transition-duration: 500ms;
+                transition-duration: 500ms; }
+            .singlefeaturedproperty .propertycontent {
+              padding: 30px;
+              border: 1px solid #e1dddd; }
+              .singlefeaturedproperty .propertycontent h5 {
+                font-size: 18px; }
+              .singlefeaturedproperty .propertycontent p {
+                margin-bottom: 30px; }
+              .singlefeaturedproperty .propertycontent .location {
+                color: #947054;
+                margin-bottom: 25px;
+                font-size: 14px;
+                font-weight: 600; }
+                .singlefeaturedproperty .propertycontent .location img {
+                  margin-right: 10px;
+                  display: inline-block !important;
+                  width: auto !important; }
+              .singlefeaturedproperty .propertycontent .propertymetadata span {
+                font-size: 12px;
+                font-weight: 600;
+                margin-left: 5px;
+                color: #838383; }
+              .singlefeaturedproperty .propertycontent .propertymetadata img {
+                margin-right: 10px;
+                display: inline-block !important;
+                width: auto !important; }
+                @media only screen and (max-width: 767px) {
+                  .singlefeaturedproperty .propertycontent .propertymetadata img {
+                    margin-right: 0; } }
+            .singlefeaturedproperty:hover, .singlefeaturedproperty:focus {
+              box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); }
+              .singlefeaturedproperty:hover .tag span, .singlefeaturedproperty:focus .tag span {
+                background-color: #000000;
+                color: #ffffff; }
+              .singlefeaturedproperty:hover .listprice p, .singlefeaturedproperty:focus .listprice p {
+                background-color: #947054;
+                color: #ffffff; }
+
+
+                .mb50 {
+                    margin-bottom: 50px; }
+                    .listingscontent .location {
+                      margin-bottom: 40px; }
+                      .listingscontent .location img {
+                        margin-right: 15px; }
+
+
+                        .listingscontent .propertymetadata div {
+                          margin-right: 15px; }
+                        .listingscontent .propertymetadata span {
+                          font-size: 12px;
+                          font-weight: 600;
+                          margin-left: 5px;
+                          color: #838383; }
+                        .listingscontent .propertymetadata img {
+                          margin-right: 10px;
+                          display: inline-block !important;
+                          width: auto !important; }
+                          @media only screen and (max-width: 767px) {
+                            .listingscontent .propertymetadata img {
+                              margin-right: 0; } }
+
+
+                              .justifycontentbetween {
+                                -webkit-box-pack: justify;
+                                -ms-flex-pack: justify;
+                                justify-content: space-between
+                              }
+
+
+                              .calltoactionarea {
+                                position: relative;
+                                z-index: 1;
+                                width: 100%;
+                                height: 650px;
+                                background-image: url(../../asstes/images/cta.jpg);
+                               }
+                                @media only screen and (min-width: 768px) and (max-width: 991px) {
+                                  .calltoactionarea {
+                                    height: 500px; } }
+                                @media only screen and (max-width: 767px) {
+                                  .calltoactionarea {
+                                    height: 500px; } }
+                                .calltoactionarea .ctacontent h2 {
+                                  color: #ffffff;
+                                  font-size: 48px;
+                                  margin-bottom: 20px;
+                                  text-transform: uppercase; }
+                                  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+                                    .calltoactionarea .ctacontent h2 {
+                                      font-size: 40px; } }
+                                  @media only screen and (min-width: 768px) and (max-width: 991px) {
+                                    .calltoactionarea .ctacontent h2 {
+                                      font-size: 30px; } }
+                                  @media only screen and (max-width: 767px) {
+                                    .calltoactionarea .ctacontent h2 {
+                                      font-size: 24px; } }
+                                .calltoactionarea .ctacontent h6 {
+                                  font-size: 30px;
+                                  font-style: italic;
+                                  color: #ffffff; }
+                                  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+                                    .calltoactionarea .ctacontent h6 {
+                                      font-size: 24px; } }
+                                  @media only screen and (min-width: 768px) and (max-width: 991px) {
+                                    .calltoactionarea .ctacontent h6 {
+                                      font-size: 18px; } }
+                                  @media only screen and (max-width: 767px) {
+                                    .calltoactionarea .ctacontent h6 {
+                                      font-size: 16px; } }
+
+                                      .bgfixed {
+                                        background-position: center center;
+                                        background-attachment: fixed;
+                                        background-size: cover; }
+
+
+                                        .bgoverlayblack {
+                                          position: relative;
+                                          z-index: 1; }
+                                          .bgoverlayblack::after {
+                                            position: absolute;
+                                            z-index: -1;
+                                            top: 0;
+                                            left: 0;
+                                            width: 100%;
+                                            height: 100%;
+                                            background-color: #000000;
+                                            opacity: 0.7;
+                                            content: ''; }
+                                        
+                                        .bgoverlaywhite {
+                                          position: relative;
+                                          z-index: -1; }
+                                          .bgoverlaywhite::after {
+                                            position: absolute;
+                                            z-index: -2;
+                                            top: 0;
+                                            left: 0;
+                                            width: 100%;
+                                            height: 100%;
+                                            background-color: rgba(230, 241, 255, 0.5);
+                                            content: ''; }
+                                        
+                                        .gradientbackgroundoverlay:before {
+                                          content: "";
+                                          position: absolute;
+                                          height: 100%;
+                                          width: 100%;
+                                          z-index: -1;
+                                          top: 0;
+                                          left: 0;
+                                          background: rgba(0, 0, 0, 0.9);
+                                          background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.9) 90%, rgba(0, 0, 0, 0) 100%);
+                                          background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.9) 90%, rgba(0, 0, 0, 0) 100%); }
+                                        
+                                        .bggray {
+                                          background-color: #f5f7f9; }
+
+                                          .southbtn {
+                                            position: relative;
+                                            z-index: 1;
+                                            min-width: 170px;
+                                            height: 50px;
+                                            color: #ffffff;
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                            background-color: #947054;
+                                            border-radius: 0;
+                                            line-height: 50px;
+                                            padding: 0 30px;
+                                            text-transform: uppercase; }
+                                            .southbtn.active, .southbtn:hover, .southbtn:focus {
+                                              color: #ffffff;
+                                              background-color: #000000; }
+                                            .southbtn.btn-2 {
+                                              border: 2px solid #947054;
+                                              background-color: transparent;
+                                              color: #947054;
+                                              line-height: 46px; }
+                                              .southbtn.btn-2:hover, .southbtn.btn-2:focus {
+                                                color: #ffffff;
+                                                background-color: #947054; }
+                                            .southbtn.btn-3 {
+                                              border: 2px solid #000000;
+                                              background-color: transparent;
+                                              color: #000000;
+                                              line-height: 46px; }
+                                              .southbtn.btn-3:hover, .southbtn.btn-3:focus {
+                                                color: #ffffff;
+                                                background-color: #000000; }
+
+
+
+                                                .mt50 {
+                                                  margin-top: 50px; }

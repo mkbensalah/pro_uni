@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Layout from './hoc/Layout/Layout'
 import Home from './containers/Home/Home';
-import FirstPage from './containers/FirstPage/FirstPage';
+
 import { Route,Switch } from 'react-router-dom';
 
 class App extends Component {
@@ -20,5 +20,5 @@ class App extends Component {
     );
   }
 }
-
+ 
 export default App;

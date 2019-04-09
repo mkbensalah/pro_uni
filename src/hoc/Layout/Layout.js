@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Aux from '../Auxliary';
-import classes from './Layout.css';
+
 
 import Menu from '../../components/Navigation/Menu/Menu'
 
@@ -25,7 +25,7 @@ class Layout extends Component {
     render () {
         return (
             <Aux>
-                <Menu drawerToggleClicked={this.sideDrawerToggleHandler}/>
+                <Menu/>
                 <main >
                     {this.props.children}
                 </main>

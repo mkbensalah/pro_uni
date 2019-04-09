@@ -104,7 +104,7 @@ const search = (props) => (
                                             
                                     <div className={classes.sliderrange}>
                                                 <div data-min="120" data-max="820" data-unit=" sq. ft"
-                                                    className="slider-range-price ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+                                                   className={[classes.uislider,classes.uisliderhorizontal, classes.uiwidget,classes.uiwidgetcontent , classes.uicornerall ].join(' ')}
                                                     data-value-min="120" data-value-max="820">
                                                     <div className={[classes.uiwidgetheader, classes.uicornerall ].join(' ')}></div>
                                                     <span className={[classes.uistatedefault, classes.uicornerall ].join(' ')} 
@@ -118,7 +118,7 @@ const search = (props) => (
                                           
                                     <div className={classes.sliderrange}>
                                                 <div data-min="10" data-max="1300" data-unit=" mil"
-                                                    className="slider-range-price ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+                                                className={[classes.uislider,classes.uisliderhorizontal, classes.uiwidget,classes.uiwidgetcontent , classes.uicornerall ].join(' ')}
                                                     data-value-min="10" data-value-max="1300">
                                                     <div className={[classes.uiwidgetheader, classes.uicornerall ].join(' ')} ></div>
                                                     <span className={[classes.uistatedefault, classes.uicornerall ].join(' ')} 
@@ -215,10 +215,10 @@ const search = (props) => (
                                         <div className={[classes.lignitemsend,"col-12 d-flex align-items-end"]}>
                                             
                                     <div className={classes.morefilter}>
-                                                <a href="#" id="moreFilter">+ More filters</a>
+                                                <a href="index.html" id="moreFilter">+ More</a>
                                             </div>
                                            
-                                    <div className={[classes.formgroup, "mb-0"].join(' ')}>
+                                    <div className={[classes.formgroup, classes.SearchBtn].join(' ')}>
                                                 <button type="submit" className={classes.southbtn}>Search</button>
                                             </div>
                                         </div>

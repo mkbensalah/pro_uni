@@ -1,9 +1,11 @@
 .Search {
     width: 100%;
     box-shadow: 0 2px 1px #ccc;
-    margin: auto;
+    margin: 2;
     
 }
+
+
 
 
 .southsearcharea {
@@ -172,7 +174,7 @@
 
 
       .southsearcharea .advancedsearchform .uistatedefault,
-    .southsearcharea .advancedsearchform .ui-widget-content .uistatedefault,
+    .southsearcharea .advancedsearchform .uiwidgetcontent .uistatedefault,
     .southsearcharea .advancedsearchform .ui-widget-header .uistatedefault,
     .southsearcharea .advancedsearchform .ui-button,
     .southsearcharea .advancedsearchform html .ui-button.ui-state-disabled:hover,
@@ -247,3 +249,31 @@
             color: #ffffff;
             background-color: #000000; }
       
+
+            .SearchBtn {
+              padding-left: 52em; 
+            }
+
+
+            .southsearcharea .advancedsearchform .uisliderhorizontal {
+              height: 4px;
+              background: #947054; }
+
+
+              .southsearcharea .advancedsearchform .uiwidget.uiwidgetcontent {
+                border: none;
+                height: 4px; }
+
+                .southsearcharea .advancedsearchform .uistatedefault,
+    .southsearcharea .advancedsearchform .uiwidgetcontent .uistatedefault,
+    .southsearcharea .advancedsearchform .uiwidgetheader .uistatedefault,
+    .southsearcharea .advancedsearchform .uibutton,
+    .southsearcharea .advancedsearchform html .uibutton.ui-tatedisabled:hover,
+    .southsearcharea .advancedsearchform html .uibutton.uistatedisabled:active {
+      border: none;
+      background: #947054;
+      margin-top: -3px; }
+
+
+      .southsearcharea .advancedsearchform .uiwidgetcontent {
+        background: #947054; }

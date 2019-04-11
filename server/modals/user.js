@@ -1,3 +1,4 @@
+var db = require("../helpers/db-setup");
 var userID=0;
 // add user to db
 exports.create = function(user, done) {

@@ -13,6 +13,10 @@ const app = express();
 // default dev-server port
 const port = 5000;
 
+
+// test
+var hamza="hello" ;
+
 // echo msg for startup
 app.get("/", (req, res) => res.send("Node server running!"));
 

@@ -25,11 +25,11 @@ router.post("/login", (req, res) => {
         .status(400)
         .json({ email: `User with email "${req.body.email}" did not exist!` });
     } else {
+      // using bcrypt api to secure your password
       bcrypt.compare(password, rows[0].password).then(isMatch => {
         if (isMatch) {
-
           // res.json({ msg: "Success!" });
-          // create payload
+          // create payload -> user indicator
           var payload = {
             id: rows[0].id,
             username: rows[0].name,
@@ -37,10 +37,10 @@ router.post("/login", (req, res) => {
             state: rows[0].state,
             telephone: rows[0].tel,
           };
-          // sign tokens  
+          // sign the token  
           jwt.sign(payload, keys.secretKey, { expiresIn: 3600 }, (err, token) => {
             if (err) throw err
-            else res.json({ success: true, token: 'Bearer ' + token });
+            else res.json({ success: true, token: 'Bearer ' + token }); // Bearer encryption
           });
         }
         else return res.status(400).json({ msg: "Password not correct" });
@@ -54,7 +54,7 @@ router.post("/login", (req, res) => {
 // @desc    register user
 // @access  Public
 router.get("/register", (req, res) => {
-  userModal.findByEmail(req.query.mail, function(err, rows) {
+  userModal.findByEmail(req.query.mail, function (err, rows) {
     if (rows !== undefined && rows.length > 0) {
       return res
         .status(400)

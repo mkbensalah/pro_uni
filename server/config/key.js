@@ -4,7 +4,8 @@ module.exports = {
     user: "8Eg172KG7R",
     password: "qhMY6kAAf9",
     database: "8Eg172KG7R"
-  }
+  },
+  secretKey: "Real Estate"
 };
 
 // email:       real.estate2k19@gmail.com

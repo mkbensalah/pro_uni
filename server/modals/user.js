@@ -1,5 +1,5 @@
 var db = require("../helpers/db-setup");
-
+var userID=0;
 // add user to db
 exports.create = function (user, hached_password, done) {
   var userID = 0;
@@ -31,6 +31,7 @@ exports.create = function (user, hached_password, done) {
               return done(err);
             }
             done(null, userID);
+      done(null, userID);
           }
         );
       }
@@ -49,6 +50,9 @@ exports.create = function (user, hached_password, done) {
       }
     }
   );
+
+
+
 
 };
 

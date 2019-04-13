@@ -54,7 +54,7 @@ router.post("/login", (req, res) => {
 // @desc    register user
 // @access  Public
 router.get("/register", (req, res) => {
-  userModal.findByEmail(req.body.email, function (err, rows) {
+  userModal.findByEmail(req.query.mail, function(err, rows) {
     if (rows !== undefined && rows.length > 0) {
       return res
         .status(400)

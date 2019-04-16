@@ -97,7 +97,7 @@ router.get("/logout", checkAuthorization, (req, res) => {
 // @route   POST api/users/register
 // @desc    register user
 // @access  Public
-router.get("/register", (req, res) => {
+router.post("/register", (req, res) => {
   userModal.findByEmail(req.body.email, function (err, rows) {
     if (rows !== undefined && rows.length > 0) {
       return res
